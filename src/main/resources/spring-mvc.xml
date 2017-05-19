@@ -13,5 +13,6 @@ default-lazy-init="true">
    <context:annotation-config />
    <context:component-scan base-package="com.brand" >
    </context:component-scan>  
-
+	<mvc:annotation-driven />
+	
 </beans>
